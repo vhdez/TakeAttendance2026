@@ -1,7 +1,11 @@
 class Main {
-    public static void main(String[] args) {
-        System.out.println("Let's take attendance!");
+	public static void main(String[] args) {
+		System.out.println("Let's take attendance!");
 
+		System.out.println("Write Present if you are present");
+		int numberPresent =  0;
+		System.out.println("Mr. Hernandez is Present!");
+		numberPresent = numberPresent + 1;
         System.out.println("Write Present if you are present");
 
         int numberPresent = 0;
@@ -10,7 +14,18 @@ class Main {
         System.out.println("Aquil Snipes is Present!");
         numberPresent = numberPresent + 2;
 
-        System.out.println("There are " + numberPresent + " people present.");
+		System.out.println("Cesia is Present!");
+		// use the ++ operator
+		// numberPresent = numberPresent + 1; is very verbose
+		numberPresent++;
+		System.out.println("Jack is Present!");
+		numberPresent = numberPresent + 1;
 
-    }
+		System.out.println("Elena is Present!");
+		numberPresent = numberPresent + 1;
+
+		System.out.println("There are " + numberPresent + " people present.");
+
+	}
+
 }
