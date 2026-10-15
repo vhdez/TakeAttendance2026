@@ -7,7 +7,8 @@ class Main {
         int numberPresent = 0;
 
         System.out.println("Mr. Hernandez is Present!");
-        numberPresent = numberPresent + 1;
+        System.out.println("Aquil Snipes is Present!");
+        numberPresent = numberPresent + 2;
 
         System.out.println("There are " + numberPresent + " people present.");
     }
