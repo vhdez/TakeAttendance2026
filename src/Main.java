@@ -12,7 +12,15 @@ class Main {
 		// use the ++ operator
 		// numberPresent = numberPresent + 1; is very verbose
 		numberPresent++;
-
+		
+		addPerson("jack");
+		
 		System.out.println("There are " + numberPresent + " people present.");
+		
+	}
+	
+	public static void addPerson (String name) {
+		System.out.println(name);
+		numberPresent++;
 	}
 }
