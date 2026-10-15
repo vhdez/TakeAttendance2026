@@ -11,5 +11,6 @@ class Main {
         numberPresent = numberPresent + 2;
 
         System.out.println("There are " + numberPresent + " people present.");
+
     }
 }
