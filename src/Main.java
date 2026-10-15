@@ -8,19 +8,12 @@ class Main {
 		System.out.println("Write Present if you are present");
 
 		System.out.println("Mr. Hernandez is Present!");
-		
-		// use the ++ operator
-		// numberPresent = numberPresent + 1; is very verbose
-		numberPresent++;
-		
-		addPerson("jack");
-		
+		numberPresent = numberPresent + 1;
+
+		System.out.println("Jack is Present!");
+		numberPresent = numberPresent + 1;
+
 		System.out.println("There are " + numberPresent + " people present.");
-		
 	}
 	
-	public static void addPerson (String name) {
-		System.out.println(name);
-		numberPresent++;
-	}
 }
