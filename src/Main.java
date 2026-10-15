@@ -8,7 +8,9 @@ class Main {
 		System.out.println("Write Present if you are present");
 
 		System.out.println("Mr. Hernandez is Present!");
-		
+		numberPresent++;
+
+		System.out.println("Cesia is Present!");
 		// use the ++ operator
 		// numberPresent = numberPresent + 1; is very verbose
 		numberPresent++;
