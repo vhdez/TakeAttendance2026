@@ -7,6 +7,10 @@ class Main {
 		System.out.println("Mr. Hernandez is Present!");
 		numberPresent = numberPresent + 1;
 
+		System.out.println("Cesia is Present!");
+		// use the ++ operator
+		// numberPresent = numberPresent + 1; is very verbose
+		numberPresent++;
 		System.out.println("Jack is Present!");
 		numberPresent = numberPresent + 1;
 
@@ -14,6 +18,7 @@ class Main {
 		numberPresent = numberPresent + 1;
 
 		System.out.println("There are " + numberPresent + " people present.");
-	}
 
+	}
+	
 }
