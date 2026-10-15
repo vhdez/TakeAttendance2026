@@ -6,13 +6,9 @@ class Main {
 		int numberPresent =  0;
 		System.out.println("Mr. Hernandez is Present!");
 		numberPresent = numberPresent + 1;
-        System.out.println("Write Present if you are present");
 
-        int numberPresent = 0;
-
-        System.out.println("Mr. Hernandez is Present!");
         System.out.println("Aquil Snipes is Present!");
-        numberPresent = numberPresent + 2;
+        numberPresent = numberPresent + 1;
 
 		System.out.println("Cesia is Present!");
 		// use the ++ operator
